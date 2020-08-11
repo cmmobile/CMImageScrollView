@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CMImageScrollView"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "This image scroll view can easily zoom in, zoom out an iamge."
 
   spec.description  = "You can pass an image, or declare which view you want to show detail image."
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/cmmobile/CMImageScrollView.git", :tag => spec.version }
 
-#  spec.exclude_files = "Classes/Exclude"
+  spec.exclude_files = 'DemoCMImageScrollView/**/*.*','DemoCMImageScrollView/*.*'
   
   spec.source_files = 'CMImageScrollView/CMImageScrollView/*.{h,m,swift}','CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}'
   spec.framework = 'UIKit'

@@ -31,8 +31,7 @@ class ViewController: UIViewController {
     // MARK: - IBAction
     @IBAction func zoomInButtonDidTap(_ sender: Any) {
         
-        imageScrollView.zoomIn(imageView: imageView)
+        imageScrollView.zoomIn(imageView: imageView, on: view)
     }
-    
 }
 

@@ -57,7 +57,7 @@
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43EA5E4336AEACAF1A06B86A1C35D7D9 /* Pods-DemoCMImageScrollViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCMImageScrollViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		448FD074E2F0B7B7F6F6CF7B0C0AEE5D /* CMImageScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CMImageScrollView-Info.plist"; sourceTree = "<group>"; };
-		4865EF25AB584A0B8EC8BE6C79F29723 /* Pods_DemoCMImageScrollViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoCMImageScrollViewTests.framework; path = "Pods-DemoCMImageScrollViewTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4865EF25AB584A0B8EC8BE6C79F29723 /* Pods_DemoCMImageScrollViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCMImageScrollViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		500BFB3030264AE32B80E9B2EE3554DD /* Pods-DemoCMImageScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCMImageScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		5A42E287E2A8BDD84CCA68159A0E1CDF /* Pods-DemoCMImageScrollView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoCMImageScrollView-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5E671955DD50323D92BF13D4726B4E8C /* Pods-DemoCMImageScrollViewTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoCMImageScrollViewTests.modulemap"; sourceTree = "<group>"; };
@@ -65,17 +65,17 @@
 		64159F1980D0671A447443EACBF46E20 /* Pods-DemoCMImageScrollViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoCMImageScrollViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6BEEF98486DD559B689B4481639D3224 /* Pods-DemoCMImageScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoCMImageScrollView-dummy.m"; sourceTree = "<group>"; };
 		6D476ACCB8AAFD66D1FBEAFF647C7FF8 /* CMImageScrollView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CMImageScrollView.xcconfig; sourceTree = "<group>"; };
-		6FCC31754E3656DD28A7A3C8912E7BC8 /* CMImageScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CMImageScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6FCC31754E3656DD28A7A3C8912E7BC8 /* CMImageScrollView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CMImageScrollView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		732EF6EE8EB4D338C585366B6A450D18 /* CMImageScrollView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMImageScrollView-prefix.pch"; sourceTree = "<group>"; };
-		7F0D734E31047706A2D0AF744C108590 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		7F0D734E31047706A2D0AF744C108590 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9218FC403BE885D1EFF8BCD1DDD25141 /* Pods-DemoCMImageScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoCMImageScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A16BF0D6751AF02A0928D6B37071E515 /* CMImageScrollView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CMImageScrollView-dummy.m"; sourceTree = "<group>"; };
 		AD10CAA9900F17A276B4CD2F430EC26D /* CMImageScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CMImageScrollView-umbrella.h"; sourceTree = "<group>"; };
-		AE20BB3B82080A47412D46BEE9515847 /* CMImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CMImageScrollView.framework; path = CMImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B23A8C2D0EC602C3BCAFAF1F7376E704 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AE20BB3B82080A47412D46BEE9515847 /* CMImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B23A8C2D0EC602C3BCAFAF1F7376E704 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B56D32173DDE6844175FE9ACE11635D6 /* Pods-DemoCMImageScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCMImageScrollView-Info.plist"; sourceTree = "<group>"; };
-		C151428CA50150045DE53B4B9CA93039 /* CMImageScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CMImageScrollView.bundle; path = "CMImageScrollView-CMImageScrollView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C151428CA50150045DE53B4B9CA93039 /* CMImageScrollView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMImageScrollView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CBB29AD8608B5E5BED8CDA3A1FA4AE /* Pods-DemoCMImageScrollViewTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoCMImageScrollViewTests-umbrella.h"; sourceTree = "<group>"; };
 		CB60E4BF86B68E5F50FE6AB27BF72C76 /* Pods-DemoCMImageScrollView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCMImageScrollView-acknowledgements.plist"; sourceTree = "<group>"; };
 		D63681099FDD9CDD91B6261A04692CED /* CMImageScrollView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CMImageScrollView.modulemap; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		E7C7F8DF261B913595CFC7743BE712A4 /* Pods-DemoCMImageScrollView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoCMImageScrollView-frameworks.sh"; sourceTree = "<group>"; };
 		EC1CF9740172FACFFA269BE250C31D6E /* Pods-DemoCMImageScrollView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoCMImageScrollView-umbrella.h"; sourceTree = "<group>"; };
 		F0628C5BC240E2B4C264A70C3D8B4EE1 /* Pods-DemoCMImageScrollViewTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoCMImageScrollViewTests-Info.plist"; sourceTree = "<group>"; };
-		F9C74A7F0E38F376ACE094AF12B27331 /* Pods_DemoCMImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoCMImageScrollView.framework; path = "Pods-DemoCMImageScrollView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9C74A7F0E38F376ACE094AF12B27331 /* Pods_DemoCMImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCMImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9CDB01300686A46F62894C79142FB6D /* ResourceBundle-CMImageScrollView-CMImageScrollView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CMImageScrollView-CMImageScrollView-Info.plist"; sourceTree = "<group>"; };
 		FA1831B84D61F264E40B8CE825412FE4 /* Pods-DemoCMImageScrollViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoCMImageScrollViewTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,7 +171,6 @@
 			children = (
 				DE2EBB554569CFEF51CE0E1B97F1A30B /* CMImageScrollView.swift */,
 			);
-			name = CMImageScrollView;
 			path = CMImageScrollView;
 			sourceTree = "<group>";
 		};
@@ -197,7 +196,6 @@
 			children = (
 				1DEB3D762FC6E3B7DEE3B3C15685BAF2 /* Toast.swift */,
 			);
-			name = Toast;
 			path = Toast;
 			sourceTree = "<group>";
 		};
@@ -228,7 +226,6 @@
 			children = (
 				D75A0025FA3D2AA4AAF8A3B8F70D8D33 /* CMBundle.swift */,
 			);
-			name = Bundle;
 			path = Bundle;
 			sourceTree = "<group>";
 		};

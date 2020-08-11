@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		67153292F2670031CC11A9B4 /* Pods_DemoCMImageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B268ADEFF654D5900FE71C63 /* Pods_DemoCMImageScrollView.framework */; };
+		83638EAC24E283CB0080943F /* CMImageScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83638EAB24E283CA0080943F /* CMImageScrollView.podspec */; };
+		83638EAE24E283D10080943F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83638EAD24E283D10080943F /* README.md */; };
 		83866AF124E27F72007688A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AF024E27F72007688A1 /* AppDelegate.swift */; };
 		83866AF324E27F72007688A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AF224E27F72007688A1 /* SceneDelegate.swift */; };
 		83866AF524E27F72007688A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AF424E27F72007688A1 /* ViewController.swift */; };
@@ -33,6 +35,8 @@
 		553265CB02D9EB30C9A0B20B /* Pods-DemoCMImageScrollViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCMImageScrollViewTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoCMImageScrollViewTests/Pods-DemoCMImageScrollViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		60D3040EF47751BA24ABA5E2 /* Pods-DemoCMImageScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoCMImageScrollView.release.xcconfig"; path = "Target Support Files/Pods-DemoCMImageScrollView/Pods-DemoCMImageScrollView.release.xcconfig"; sourceTree = "<group>"; };
 		75B70B059ADF39A69D9170A1 /* Pods_DemoCMImageScrollViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoCMImageScrollViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83638EAB24E283CA0080943F /* CMImageScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMImageScrollView.podspec; path = ../CMImageScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83638EAD24E283D10080943F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		83866AED24E27F72007688A1 /* DemoCMImageScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCMImageScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83866AF024E27F72007688A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83866AF224E27F72007688A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,13 +80,14 @@
 				553265CB02D9EB30C9A0B20B /* Pods-DemoCMImageScrollViewTests.debug.xcconfig */,
 				12D6DFABD5B1BB0DED791EA7 /* Pods-DemoCMImageScrollViewTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		83866AE424E27F72007688A1 = {
 			isa = PBXGroup;
 			children = (
+				83638EAB24E283CA0080943F /* CMImageScrollView.podspec */,
+				83638EAD24E283D10080943F /* README.md */,
 				83866AEF24E27F72007688A1 /* DemoCMImageScrollView */,
 				83866B0624E27F75007688A1 /* DemoCMImageScrollViewTests */,
 				83866AEE24E27F72007688A1 /* Products */,
@@ -218,6 +223,8 @@
 			files = (
 				83866AFD24E27F75007688A1 /* LaunchScreen.storyboard in Resources */,
 				83866AFA24E27F75007688A1 /* Assets.xcassets in Resources */,
+				83638EAE24E283D10080943F /* README.md in Resources */,
+				83638EAC24E283CB0080943F /* CMImageScrollView.podspec in Resources */,
 				83866AF824E27F73007688A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
