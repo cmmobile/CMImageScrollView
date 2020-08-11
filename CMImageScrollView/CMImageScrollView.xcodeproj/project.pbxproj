@@ -10,6 +10,11 @@
 		83866ABE24E243B7007688A1 /* CMImageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83866AB424E243B7007688A1 /* CMImageScrollView.framework */; };
 		83866AC324E243B7007688A1 /* CMImageScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AC224E243B7007688A1 /* CMImageScrollViewTests.swift */; };
 		83866AC524E243B7007688A1 /* CMImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83866AB724E243B7007688A1 /* CMImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83866AD024E24428007688A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83866ACE24E24427007688A1 /* README.md */; };
+		83866AD124E24428007688A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83866ACF24E24427007688A1 /* LICENSE */; };
+		83866AD324E244AE007688A1 /* CMImageScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83866AD224E244AE007688A1 /* CMImageScrollView.podspec */; };
+		83866AD624E246DD007688A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83866AD524E246DD007688A1 /* Assets.xcassets */; };
+		83866ADA24E24806007688A1 /* CMBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AD924E24806007688A1 /* CMBundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		83866ABD24E243B7007688A1 /* CMImageScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMImageScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83866AC224E243B7007688A1 /* CMImageScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMImageScrollViewTests.swift; sourceTree = "<group>"; };
 		83866AC424E243B7007688A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83866ACE24E24427007688A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		83866ACF24E24427007688A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		83866AD224E244AE007688A1 /* CMImageScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMImageScrollView.podspec; path = ../CMImageScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83866AD524E246DD007688A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83866AD924E24806007688A1 /* CMBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMBundle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,9 @@
 		83866AAA24E243B7007688A1 = {
 			isa = PBXGroup;
 			children = (
+				83866AD224E244AE007688A1 /* CMImageScrollView.podspec */,
+				83866ACF24E24427007688A1 /* LICENSE */,
+				83866ACE24E24427007688A1 /* README.md */,
 				83866AB624E243B7007688A1 /* CMImageScrollView */,
 				83866AC124E243B7007688A1 /* CMImageScrollViewTests */,
 				83866AB524E243B7007688A1 /* Products */,
@@ -73,6 +86,8 @@
 			children = (
 				83866AB724E243B7007688A1 /* CMImageScrollView.h */,
 				83866AB824E243B7007688A1 /* Info.plist */,
+				83866AD724E247EB007688A1 /* Classes */,
+				83866AD424E246CF007688A1 /* Assets */,
 			);
 			path = CMImageScrollView;
 			sourceTree = "<group>";
@@ -84,6 +99,30 @@
 				83866AC424E243B7007688A1 /* Info.plist */,
 			);
 			path = CMImageScrollViewTests;
+			sourceTree = "<group>";
+		};
+		83866AD424E246CF007688A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83866AD524E246DD007688A1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		83866AD724E247EB007688A1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83866AD824E247F5007688A1 /* Bundle */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		83866AD824E247F5007688A1 /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				83866AD924E24806007688A1 /* CMBundle.swift */,
+			);
+			path = Bundle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +187,7 @@
 				TargetAttributes = {
 					83866AB324E243B7007688A1 = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 					83866ABC24E243B7007688A1 = {
 						CreatedOnToolsVersion = 11.3.1;
@@ -178,6 +218,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83866AD324E244AE007688A1 /* CMImageScrollView.podspec in Resources */,
+				83866AD124E24428007688A1 /* LICENSE in Resources */,
+				83866AD624E246DD007688A1 /* Assets.xcassets in Resources */,
+				83866AD024E24428007688A1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83866ADA24E24806007688A1 /* CMBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +385,7 @@
 		83866AC924E243B7007688A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 52W935AVL3;
@@ -348,7 +394,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CMImageScrollView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = CMoney.CMImageScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +412,7 @@
 		83866ACA24E243B7007688A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 52W935AVL3;
@@ -373,7 +421,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CMImageScrollView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +438,7 @@
 		83866ACC24E243B7007688A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52W935AVL3;
 				INFOPLIST_FILE = CMImageScrollViewTests/Info.plist;
@@ -408,6 +457,7 @@
 		83866ACD24E243B7007688A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 52W935AVL3;
 				INFOPLIST_FILE = CMImageScrollViewTests/Info.plist;
