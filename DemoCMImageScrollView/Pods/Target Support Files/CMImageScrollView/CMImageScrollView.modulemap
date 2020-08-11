@@ -1,0 +1,6 @@
+framework module CMImageScrollView {
+  umbrella header "CMImageScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

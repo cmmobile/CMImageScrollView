@@ -1,0 +1,6 @@
+framework module Pods_DemoCMImageScrollView {
+  umbrella header "Pods-DemoCMImageScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}
