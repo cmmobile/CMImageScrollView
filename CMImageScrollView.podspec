@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CMImageScrollView"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "This image scroll view can easily zoom in, zoom out an iamge."
 
   spec.description  = "You can pass an image, or declare which view you want to show detail image."
