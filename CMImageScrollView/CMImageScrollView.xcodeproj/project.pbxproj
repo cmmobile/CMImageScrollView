@@ -13,8 +13,8 @@
 		83866AD024E24428007688A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 83866ACE24E24427007688A1 /* README.md */; };
 		83866AD124E24428007688A1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 83866ACF24E24427007688A1 /* LICENSE */; };
 		83866AD324E244AE007688A1 /* CMImageScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83866AD224E244AE007688A1 /* CMImageScrollView.podspec */; };
-		83866AD624E246DD007688A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83866AD524E246DD007688A1 /* Assets.xcassets */; };
 		83866ADA24E24806007688A1 /* CMBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AD924E24806007688A1 /* CMBundle.swift */; };
+		83866ADD24E24B0B007688A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83866ADC24E24B0B007688A1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,8 @@
 		83866ACE24E24427007688A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		83866ACF24E24427007688A1 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		83866AD224E244AE007688A1 /* CMImageScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMImageScrollView.podspec; path = ../CMImageScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		83866AD524E246DD007688A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83866AD924E24806007688A1 /* CMBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMBundle.swift; sourceTree = "<group>"; };
+		83866ADC24E24B0B007688A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 			children = (
 				83866AB724E243B7007688A1 /* CMImageScrollView.h */,
 				83866AB824E243B7007688A1 /* Info.plist */,
+				83866ADB24E24AFE007688A1 /* Assets */,
 				83866AD724E247EB007688A1 /* Classes */,
-				83866AD424E246CF007688A1 /* Assets */,
 			);
 			path = CMImageScrollView;
 			sourceTree = "<group>";
@@ -99,14 +99,6 @@
 				83866AC424E243B7007688A1 /* Info.plist */,
 			);
 			path = CMImageScrollViewTests;
-			sourceTree = "<group>";
-		};
-		83866AD424E246CF007688A1 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				83866AD524E246DD007688A1 /* Assets.xcassets */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		83866AD724E247EB007688A1 /* Classes */ = {
@@ -123,6 +115,14 @@
 				83866AD924E24806007688A1 /* CMBundle.swift */,
 			);
 			path = Bundle;
+			sourceTree = "<group>";
+		};
+		83866ADB24E24AFE007688A1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83866ADC24E24B0B007688A1 /* Assets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +220,7 @@
 			files = (
 				83866AD324E244AE007688A1 /* CMImageScrollView.podspec in Resources */,
 				83866AD124E24428007688A1 /* LICENSE in Resources */,
-				83866AD624E246DD007688A1 /* Assets.xcassets in Resources */,
+				83866ADD24E24B0B007688A1 /* Assets.xcassets in Resources */,
 				83866AD024E24428007688A1 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
