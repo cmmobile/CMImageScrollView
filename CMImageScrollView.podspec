@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "You can pass an image, or declare which view you want to show detail image."
 
-  spec.homepage     = "https://github.com/huynguyencong/ImageScrollView"
+  spec.homepage     = "https://github.com/cmmobile/CMImageScrollView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
   spec.license      = { :type => "MIT", :file => "LICENSE" }
