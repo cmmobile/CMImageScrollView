@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CMImageScrollView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "This image scroll view can easily zoom in, zoom out an iamge."
 
   spec.description  = "You can pass an image, or declare which view you want to show detail image."
@@ -16,10 +16,10 @@ Pod::Spec.new do |spec|
   spec.social_media_url   = "https://www.cmoney.tw/app/"
 
 #   spec.platform     = :ios
-   spec.platform     = :ios, "10.0"
+#   spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
-#  spec.ios.deployment_target = "10.0"
+  spec.ios.deployment_target = "10.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -29,14 +29,14 @@ Pod::Spec.new do |spec|
 
 #  spec.exclude_files = "Classes/Exclude"
   
-  spec.source_files = "CMImageScrollView/CMImageScrollView/*.{h,m,swift}","CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}"
+  spec.source_files = 'CMImageScrollView/CMImageScrollView/*.{h,m,swift}','CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}'
   
 #  spec.resource_bundles = {
 #      'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
 #  }
-#spec.ios.resource_bundles = {
-#    'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
-#}
+  spec.ios.resource_bundles = {
+    'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
+  }
   
   spec.swift_versions = ['4.2', '5.0', '5.1']
   
