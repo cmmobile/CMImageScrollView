@@ -43,6 +43,17 @@ public class CMImageScrollView: NSObject{
     /// 原來的ImageView
     private weak var originImageView: UIImageView?
     
+    public func zoomIn(imageView: UIImageView, on rootView: UIView) {
+        
+        originImageView = imageView
+        
+        guard let originImageView = originImageView else {
+            return
+        }
+        
+        setupImage(set: originImageView, on: rootView)
+    }
+    
     /// 畫面淡入
     public func zoomIn(imageView: UIImageView) {
         
@@ -54,16 +65,21 @@ public class CMImageScrollView: NSObject{
                 return
         }
         
+        setupImage(set: originImageView, on: rootView)
+    }
+    
+    private func setupImage(set imageView: UIImageView, on rootView: UIView) {
+        
         let topButtonWidth: CGFloat = 44.0
         let topButtonHeight: CGFloat = 44.0
         var safeAreaTop: CGFloat = 20.0
         var safeAreaBottom: CGFloat = 0.0
         if #available(iOS 11.0, *) {
-            safeAreaTop = rootViewController.view.safeAreaInsets.top
-            safeAreaBottom = rootViewController.view.safeAreaInsets.bottom
+            safeAreaTop = rootView.safeAreaInsets.top
+            safeAreaBottom = rootView.safeAreaInsets.bottom
         } else{
-            safeAreaTop = rootViewController.view.layoutMargins.top
-            safeAreaBottom = rootViewController.view.layoutMargins.bottom
+            safeAreaTop = rootView.layoutMargins.top
+            safeAreaBottom = rootView.layoutMargins.bottom
         }
         
         // 設定背景View
@@ -107,9 +123,9 @@ public class CMImageScrollView: NSObject{
         
         // 設定zoomImageView
         // 轉換座標(參考網站：http://greenchiu.github.io/blog/2014/09/01/memo-the-uiview-convertrect/)
-        zoomImageView.frame = originImageView.superview?.convert(originImageView.frame, to: scrollView) ?? CGRect()
+        zoomImageView.frame = imageView.superview?.convert(imageView.frame, to: scrollView) ?? CGRect()
         zoomImageView.isUserInteractionEnabled = true
-        zoomImageView.image = originImageView.image
+        zoomImageView.image = imageView.image
         zoomImageView.contentMode = .scaleAspectFit
         zoomImageView.clipsToBounds = true
         scrollView.addSubview(zoomImageView)
@@ -127,7 +143,7 @@ public class CMImageScrollView: NSObject{
         rootView.addSubview(showToastView)
         
         // 原圖隱藏
-        originImageView.alpha = 0
+        imageView.alpha = 0
         
         // 動畫開始
         UIView.animate(withDuration: 0.4, delay: 0, options: .curveEaseOut, animations: { () -> Void in

@@ -14,6 +14,8 @@ pod 'CMImageScrollView'
 ```
 
 let imageScrollView = CMImageScrollView()
-imageScrollView.zoomIn(imageView: imageView)
+
+let rootView = viewController.view // using root view
+imageScrollView.zoomIn(imageView: imageView, on: rootView)
 
 ```
