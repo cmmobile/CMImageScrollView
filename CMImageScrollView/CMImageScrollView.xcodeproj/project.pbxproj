@@ -15,6 +15,8 @@
 		83866AD324E244AE007688A1 /* CMImageScrollView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83866AD224E244AE007688A1 /* CMImageScrollView.podspec */; };
 		83866ADA24E24806007688A1 /* CMBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AD924E24806007688A1 /* CMBundle.swift */; };
 		83866ADD24E24B0B007688A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83866ADC24E24B0B007688A1 /* Assets.xcassets */; };
+		83866AE124E2747E007688A1 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AE024E2747E007688A1 /* Toast.swift */; };
+		83866AE324E274EB007688A1 /* CMImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AE224E274EB007688A1 /* CMImageScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		83866AD224E244AE007688A1 /* CMImageScrollView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMImageScrollView.podspec; path = ../CMImageScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83866AD924E24806007688A1 /* CMBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMBundle.swift; sourceTree = "<group>"; };
 		83866ADC24E24B0B007688A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83866AE024E2747E007688A1 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		83866AE224E274EB007688A1 /* CMImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMImageScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 			isa = PBXGroup;
 			children = (
 				83866AD824E247F5007688A1 /* Bundle */,
+				83866ADF24E27470007688A1 /* Toast */,
+				83866ADE24E273DD007688A1 /* CMImageScrollView */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -123,6 +129,22 @@
 				83866ADC24E24B0B007688A1 /* Assets.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		83866ADE24E273DD007688A1 /* CMImageScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				83866AE224E274EB007688A1 /* CMImageScrollView.swift */,
+			);
+			path = CMImageScrollView;
+			sourceTree = "<group>";
+		};
+		83866ADF24E27470007688A1 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				83866AE024E2747E007688A1 /* Toast.swift */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +261,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83866AE324E274EB007688A1 /* CMImageScrollView.swift in Sources */,
 				83866ADA24E24806007688A1 /* CMBundle.swift in Sources */,
+				83866AE124E2747E007688A1 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
