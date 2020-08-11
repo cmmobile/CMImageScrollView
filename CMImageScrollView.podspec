@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "CMImageScrollView"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "This image scroll view can easily zoom in, zoom out an iamge."
 
   spec.description  = "You can pass an image, or declare which view you want to show detail image."
@@ -31,9 +31,6 @@ Pod::Spec.new do |spec|
   
   spec.source_files = 'CMImageScrollView/CMImageScrollView/*.{h,m,swift}','CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}'
   
-#  spec.resource_bundles = {
-#      'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
-#  }
   spec.resource_bundles = {
     'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
   }
