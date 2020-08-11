@@ -34,7 +34,7 @@ Pod::Spec.new do |spec|
 #  spec.resource_bundles = {
 #      'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
 #  }
-  spec.ios.resource_bundles = {
+  spec.resource_bundles = {
     'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
   }
   
