@@ -8,16 +8,16 @@
 
 import Foundation
 
-class CMCommunityBundle {
+class CMBundle {
     
     static let kBundle = "bundle"
-    static let kFramework = "CMCommunityModel"
-    static let kBundlePathForCarthage = "CMCommunityModel.framework"
+    static let kFramework = "CMImageScrollView"
+    static let kBundlePathForCarthage = "CMImageScrollView.framework"
     
     /// get current bundle
     static var bundle: Bundle? {
-        let mainBundle = Bundle(for: CMCommunityBundle.self)
-        let bundleURL = mainBundle.url(forResource: CMCommunityBundle.kFramework, withExtension: CMCommunityBundle.kBundle)
+        let mainBundle = Bundle(for: CMBundle.self)
+        let bundleURL = mainBundle.url(forResource: CMBundle.kFramework, withExtension: CMBundle.kBundle)
         
         //PodSpec (resource_bundles)
         if let bundleURL = bundleURL, let bundle = Bundle(url: bundleURL) {
@@ -25,7 +25,7 @@ class CMCommunityBundle {
         }
         
         //Carthage
-        if mainBundle.bundlePath.contains(CMCommunityBundle.kBundlePathForCarthage){
+        if mainBundle.bundlePath.contains(CMBundle.kBundlePathForCarthage){
             return mainBundle
         }
         
