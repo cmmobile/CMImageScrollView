@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,9 +89,11 @@ Pod::Spec.new do |spec|
 #  spec.exclude_files = "Classes/Exclude"
   
   spec.source_files = "CMImageScrollView/CMImageScrollView/*.{h,m,swift}","CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}"
+  
   spec.resource_bundles = {
       'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
   }
+  
   spec.swift_versions = ['4.2', '5.0', '5.1']
   
 end
