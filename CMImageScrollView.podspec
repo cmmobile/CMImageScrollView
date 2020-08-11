@@ -88,8 +88,8 @@ Pod::Spec.new do |spec|
 
 #  spec.exclude_files = "Classes/Exclude"
   
-  s.source_files = "CMImageScrollView/CMImageScrollView/*.{h,m,swift}","CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}"
-  s.resource_bundles = {
+  spec.source_files = "CMImageScrollView/CMImageScrollView/*.{h,m,swift}","CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}"
+  spec.resource_bundles = {
       'CMImageScrollView' => ['CMImageScrollView/CMImageScrollView/Assets/*.*']
   }
   spec.swift_versions = ['4.2', '5.0', '5.1']
