@@ -29,8 +29,8 @@ public class CMImageScrollView: NSObject{
     }()
     
     /// 顯示Toast的View
-    private lazy var showToastView: UIView = {
-        let view = UIView()
+    private lazy var showToastView: ToastView = {
+        let view = ToastView()
         return view
     }()
     
