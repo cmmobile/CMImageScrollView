@@ -1,9 +1,9 @@
 {
   "name": "CMImageScrollView",
-  "version": "0.0.5",
+  "version": "0.1.2",
   "summary": "This image scroll view can easily zoom in, zoom out an iamge.",
   "description": "You can pass an image, or declare which view you want to show detail image.",
-  "homepage": "https://github.com/huynguyencong/ImageScrollView",
+  "homepage": "https://github.com/cmmobile/CMImageScrollView",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -17,8 +17,12 @@
   },
   "source": {
     "git": "https://github.com/cmmobile/CMImageScrollView.git",
-    "tag": "0.0.5"
+    "tag": "0.1.2"
   },
+  "exclude_files": [
+    "DemoCMImageScrollView/**/*.*",
+    "DemoCMImageScrollView/*.*"
+  ],
   "source_files": [
     "CMImageScrollView/CMImageScrollView/*.{h,m,swift}",
     "CMImageScrollView/CMImageScrollView/**/*.{h,m,swift}"

@@ -1,5 +1,5 @@
 PODS:
-  - CMImageScrollView (0.0.5)
+  - CMImageScrollView (0.1.2)
 
 DEPENDENCIES:
   - CMImageScrollView (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CMImageScrollView: e2919d18530d143eec75292100d8852fb85a8698
+  CMImageScrollView: 0d7c6a0cd78ee61e63bd83cc16ab51e654a855bc
 
 PODFILE CHECKSUM: f8e9f78a9b4955564b7c20868ccf2036fd15c1d0
 
