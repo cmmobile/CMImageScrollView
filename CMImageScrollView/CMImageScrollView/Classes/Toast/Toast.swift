@@ -36,7 +36,7 @@ import ObjectiveC
  The `showToast` methods display any view as toast.
  
  */
-public extension UIView {
+public extension ToastView {
     
     /**
      Keys used for associated objects.
@@ -339,7 +339,7 @@ public extension UIView {
         toast.alpha = 0.0
         
         if ToastManager.shared.isTapToDismissEnabled {
-            let recognizer = UITapGestureRecognizer(target: self, action: #selector(UIView.handleToastTapped(_:)))
+            let recognizer = UITapGestureRecognizer(target: self, action: #selector(ToastView.handleToastTapped(_:)))
             toast.addGestureRecognizer(recognizer)
             toast.isUserInteractionEnabled = true
             toast.isExclusiveTouch = true
@@ -351,7 +351,7 @@ public extension UIView {
         UIView.animate(withDuration: ToastManager.shared.style.fadeDuration, delay: 0.0, options: [.curveEaseOut, .allowUserInteraction], animations: {
             toast.alpha = 1.0
         }) { _ in
-            let timer = Timer(timeInterval: duration, target: self, selector: #selector(UIView.toastTimerDidFinish(_:)), userInfo: toast, repeats: false)
+            let timer = Timer(timeInterval: duration, target: self, selector: #selector(ToastView.toastTimerDidFinish(_:)), userInfo: toast, repeats: false)
             RunLoop.main.add(timer, forMode: .common)
             objc_setAssociatedObject(toast, &ToastKeys.timer, timer, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
         }

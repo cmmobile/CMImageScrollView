@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		837218E224F49E2A00ECC460 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837218E124F49E2A00ECC460 /* ToastView.swift */; };
 		83866ABE24E243B7007688A1 /* CMImageScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83866AB424E243B7007688A1 /* CMImageScrollView.framework */; };
 		83866AC324E243B7007688A1 /* CMImageScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83866AC224E243B7007688A1 /* CMImageScrollViewTests.swift */; };
 		83866AC524E243B7007688A1 /* CMImageScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83866AB724E243B7007688A1 /* CMImageScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		837218E124F49E2A00ECC460 /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 		83866AB424E243B7007688A1 /* CMImageScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CMImageScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83866AB724E243B7007688A1 /* CMImageScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMImageScrollView.h; sourceTree = "<group>"; };
 		83866AB824E243B7007688A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				83866AE024E2747E007688A1 /* Toast.swift */,
+				837218E124F49E2A00ECC460 /* ToastView.swift */,
 			);
 			path = Toast;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837218E224F49E2A00ECC460 /* ToastView.swift in Sources */,
 				83866AE324E274EB007688A1 /* CMImageScrollView.swift in Sources */,
 				83866ADA24E24806007688A1 /* CMBundle.swift in Sources */,
 				83866AE124E2747E007688A1 /* Toast.swift in Sources */,
